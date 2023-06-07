@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>Калькулятор ЛАЭ</title>
+</head>
+<body>
+<div id="wrapper" class="mx-auto">
+    <h1 class="text-center py-2 my-2">Классификатор ЛАЭ</h1>
+    <form id="form1" class="form-control my-1 py-2">
+        <div class="form-check form-check-reverse form-switch ps-0 ">
+            <label for="msptlu-y" class="form-check-label float-start pe-3">Есть признаки метастатического поражения тазовых ЛУ?</label>
+            <input type="checkbox" id="msptlu-y" name="msptlu" class="form-check-input float-end" role="switch">
+        </div>
+        <div class="form-check form-check-reverse form-switch ps-0">
+            <label for="mspblu-y" class="form-check-label float-start pe-3">Есть признаки метастатического поражения бедренных ЛУ?</label>
+            <input type="checkbox" id="mspblu-y" name="mspblu" class="form-check-input float-end" role="switch">
+        </div>
+        <div></div>
+        <div class="input-group py-1">      
+            <span class="input-group-text col col-9">Размер опухоли при наибольшем измерении</span>       
+            <input type="number" id="size" name="size" class="form-control col" required>
+            <span class="input-group-text col col-1">см</span>
+        </div>
+        <div class="input-group py-1">
+            <span class="input-group-text col col-9">Глубина инвазии</span>  
+            <input type="number" id="depth" name="depth" class="form-control col" required>
+            <span class="input-group-text col col-1">мм</span>
+        </div>
+        <div class="input-group py-1">
+            <span class="input-group-text col col-9">Расстояние от центральной линии</span>
+            <input type="number" id="dist" name="dist" class="form-control col" required>
+            <span class="input-group-text col col-1">см</span>
+        </div>      
+        <div class="col-12 mt-2">
+            <button type="submit" class="btn btn-outline-primary" type="submit">Рассчитать</button>
+        </div>
+    </form> 
+    <form id="form2" style="display:none;" class="add-forms form-control my-1 py-2">
+        <div class="form-check form-switch ps-0 overflow-y-auto">
+            <label for="biopsy-y" class="form-check-label float-start pe-3">Есть ли возможность проведения биопсии сторожевого ЛУ c использованием Технеция?</label>
+            <input type="checkbox" id="biopsy-y" name="biopsy" class="form-check-input float-end" role="switch">
+        </div>
+        <div class="col-12 mt-3">
+            <button type="submit" class="btn btn-outline-secondary" type="submit">Обновить</button>
+        </div>
+    </form>
+    <form id="form3" style="display:none;" class="add-forms form-control my-1 py-2">
+        <div class="form-check form-switch ps-0 overflow-y-auto">
+            <label for="meta-y" class="form-check-label float-start pe-3">При срочной гистологии есть метастатическое поражение?</label>
+            <input type="checkbox" id="meta-y" name="meta" class="form-check-input float-end" role="switch">
+        </div>
+        <div class="col-12 mt-3">
+            <button type="submit" class="btn btn-outline-secondary" type="submit">Обновить</button>
+        </div>
+    </form>
+    <form id="form4" style="display:none;" class="add-forms form-control my-1 py-2">
+        <div class="form-check form-switch ps-0 overflow-y-auto">
+            <label for="damage-y" class="form-check-label float-start pe-3">При плановой проводке есть признаки поражения лимфатического узла?</label>
+            <input type="checkbox" id="damage-y" name="damage" class="form-check-input float-end" role="switch">
+        </div>
+        <div class="col-12 mt-3">
+            <button type="submit" class="btn btn-outline-secondary" type="submit">Обновить</button>
+        </div>
+    </form>
+    <div id="conclusion" style="display:none;" class="form-control my-1 px-0 py-0">
+        <span class="p-2 fw-bold">Результат</span>
+        <span id="content" class="bg-success-subtle p-2 rounded-bottom"></span>
+    </div>
+    <div id="classifier" class="form-control py-0">
+        <table class="table table-hover caption-top mb-0">
+            <caption>Классификация ЛАЭ</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Уровень</th>
+                    <th scope="col">Объем лимфаденэктомии</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">N</th>
+                    <td>Лимфаденэктомия не показана</td>
+                </tr>
+                <tr>
+                    <th scope="row">I</th>
+                    <td>Биопсия сторожевого лимфатического узла со срочной гистологией</td>
+                </tr>
+                <tr>
+                    <th scope="row">II</th>
+                    <td>Поверхностная тазово-бедренная подвздошная лимфаденэктомия</td>
+                </tr>
+                <tr>
+                    <th scope="row">III</th>
+                    <td>Операция Дюкена</td>
+                </tr>
+                <tr>
+                    <th scope="row">IV</th>
+                    <td>Тазово-бедренная подвздошная лимфаденэктомия</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>

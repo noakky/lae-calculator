@@ -1,0 +1,18 @@
+#classifier table tr:last-child th, #classifier table tr:last-child td {
+        border-bottom: none;
+    }
+    body {
+        background-color: #f3f3f2;
+    }
+    #wrapper {
+        max-width: 650px;
+    }
+    .add-forms {
+        min-height:120px;
+    }
+    .add-forms label {
+        min-height: 50px;
+    }
+    #conclusion {
+        border-color: var(--bs-success);
+    }
