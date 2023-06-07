@@ -4,7 +4,7 @@
         var form4 = document.getElementById("form4");
         var result = document.getElementById('conclusion');
         var result = document.getElementById('content');
-        const surgery = [
+        const surgery = [https://github.com/noakky/lae-calculator/actions
                             'N. Лимфаденэктомия не показана',
                             'I. Биопсия сторожевого лимфатического узла со срочной гистологией',
                             'II. Поверхностная тазово-бедренная подвздошная лимфаденэктомия',
@@ -116,7 +116,7 @@
                 return;
             } else {
                 conclusion.style.display = "inline-grid";
-                result.innerHTML = surgery[2];
+                result.innerHTML = surgery[5];
                 return;
             }
         }
