@@ -16,3 +16,10 @@
     #conclusion {
         border-color: var(--bs-success);
     }
+    #line svg {
+        font-size: 2.5rem;
+    }
+    #line svg:hover {
+        fill: var(--bs-primary);
+      }
+      
