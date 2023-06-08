@@ -59,7 +59,7 @@ function submitForm(event) {
     }
     if (size > 4) {
         conclusion.style.display = "inline-grid";
-        content.innerHTML += surgery[2];
+        content.innerHTML += surgery[3];
         form4.style.display = "block";
         let x = document.querySelector('input[name=damage]:checked');
         if (x) {
