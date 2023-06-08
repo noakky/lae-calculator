@@ -57,7 +57,7 @@ function submitForm(event) {
             return;
         }
     }
-    if (size > 4) {
+    if (size >= 4) {
         conclusion.style.display = "inline-grid";
         content.innerHTML += surgery[3];
         form4.style.display = "block";
