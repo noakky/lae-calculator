@@ -1,0 +1,343 @@
+<mxfile host="Electron" modified="2023-06-08T05:45:57.768Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="U0SPtCUbDt4M4VLNuNUl" version="21.2.8" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1891" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="_jp2UerT5N_s9_eImcSw-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="110" />
+            </Array>
+            <mxPoint x="709.9983720930231" y="40.02325581395348" as="sourcePoint" />
+            <mxPoint x="790.0332558139535" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-9" value="ДА" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];endArrow=blockThin;rounded=0;strokeColor=default;startSize=5;endFill=1;labelBackgroundColor=default;" parent="_jp2UerT5N_s9_eImcSw-8" vertex="1" connectable="0">
+          <mxGeometry x="-0.0067" y="-3" relative="1" as="geometry">
+            <mxPoint x="-37" y="-273" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-1" target="_jp2UerT5N_s9_eImcSw-76" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="525" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-79" value="НЕТ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];endArrow=blockThin;rounded=0;strokeColor=default;startSize=5;endFill=1;labelBackgroundColor=default;" parent="_jp2UerT5N_s9_eImcSw-78" vertex="1" connectable="0">
+          <mxGeometry x="0.1915" y="-1" relative="1" as="geometry">
+            <mxPoint x="27" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-1" value="Признаки &lt;br&gt;поражения &lt;br&gt;тазовых &lt;br&gt;лимфоузлов?" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;endArrow=blockThin;fontSize=11;rounded=0;startSize=5;endFill=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="590" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startSize=5;endArrow=blockThin;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-4" target="_jp2UerT5N_s9_eImcSw-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-4" target="_jp2UerT5N_s9_eImcSw-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-4" target="_jp2UerT5N_s9_eImcSw-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="541" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-4" value="Размер опухоли в наибольшем измерении?" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;endArrow=blockThin;fontSize=11;rounded=0;startSize=5;endFill=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="210" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.963;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-7" target="_jp2UerT5N_s9_eImcSw-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="850" />
+              <mxPoint x="790" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-7" value="IV. Тазово-бедренная подвздошная&amp;nbsp;&lt;br&gt;лимфаденэктомия" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;endArrow=blockThin;fontSize=11;startSize=5;endFill=1;perimeterSpacing=0;verticalAlign=top;spacingTop=0;spacing=0;spacingLeft=2;spacingBottom=0;spacingRight=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="700" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-10" value="≤ 2 см" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;endArrow=blockThin;fontSize=11;startSize=5;endFill=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="65" y="300" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.625;entryY=0;entryDx=0;entryDy=0;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-11" target="_jp2UerT5N_s9_eImcSw-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-11" value="&amp;gt;&amp;nbsp;2 см и &amp;lt; 4 см" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;endArrow=blockThin;fontSize=11;startSize=5;endFill=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="210" y="300" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-12" target="_jp2UerT5N_s9_eImcSw-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="633" y="315" />
+              <mxPoint x="633" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-12" value="&amp;gt;&amp;nbsp;4 см" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;endArrow=blockThin;fontSize=11;startSize=5;endFill=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="481" y="300" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.165;entryY=-0.024;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-20" target="_jp2UerT5N_s9_eImcSw-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-20" value="≤ 1 мм" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;endArrow=blockThin;fontSize=11;startSize=5;endFill=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="10" y="500" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.375;entryY=0;entryDx=0;entryDy=0;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-21" target="_jp2UerT5N_s9_eImcSw-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="515" />
+              <mxPoint x="270" y="370" />
+              <mxPoint x="387" y="370" />
+              <mxPoint x="387" y="390" />
+            </Array>
+            <mxPoint x="410" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-21" value="&amp;gt; 1 мм" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;endArrow=blockThin;fontSize=11;startSize=5;endFill=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="200" y="500" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-22" target="_jp2UerT5N_s9_eImcSw-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-22" target="_jp2UerT5N_s9_eImcSw-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="30" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-26" value="Лимфаденэктомия &lt;br&gt;не показана" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;labelBackgroundColor=none;endArrow=blockThin;fontSize=11;startSize=5;endFill=1;verticalAlign=top;spacingTop=0;spacing=0;spacingLeft=2;spacingBottom=0;spacingRight=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="10" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-28" target="_jp2UerT5N_s9_eImcSw-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="376" y="450" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="311" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-28" target="_jp2UerT5N_s9_eImcSw-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="376" y="450" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="500" y="420" />
+              <mxPoint x="500" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-28" value="Расстояние &lt;br&gt;от центральной линии?" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;endArrow=blockThin;fontSize=11;rounded=0;startSize=5;endFill=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="331" y="390" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-31" target="_jp2UerT5N_s9_eImcSw-68" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="331" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-31" value="&amp;gt;&amp;nbsp;2 см" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;endArrow=blockThin;fontSize=11;startSize=5;endFill=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="291" y="500" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=gap;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-40" target="_jp2UerT5N_s9_eImcSw-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="36" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="632" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-42" value="ДА" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];endArrow=blockThin;rounded=0;strokeColor=default;startSize=5;endFill=1;labelBackgroundColor=default;" parent="_jp2UerT5N_s9_eImcSw-41" vertex="1" connectable="0">
+          <mxGeometry x="-0.1232" y="-1" relative="1" as="geometry">
+            <mxPoint x="-58" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-32" target="_jp2UerT5N_s9_eImcSw-57" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="497" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-32" value="&amp;lt;&amp;nbsp;2 см" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;endArrow=blockThin;fontSize=11;startSize=5;endFill=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="480" y="500" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.812;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-35" target="_jp2UerT5N_s9_eImcSw-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="1040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="668" y="1030" />
+              <mxPoint x="668" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-35" value="III. Дюкен" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;endArrow=blockThin;fontSize=11;startSize=5;endFill=1;verticalAlign=top;spacingTop=0;spacing=0;spacingLeft=2;spacingBottom=0;spacingRight=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="615" y="740" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-40" target="_jp2UerT5N_s9_eImcSw-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="376.0588235294117" y="1080" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-45" value="НЕТ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];endArrow=blockThin;rounded=0;strokeColor=default;startSize=5;endFill=1;labelBackgroundColor=default;" parent="_jp2UerT5N_s9_eImcSw-44" vertex="1" connectable="0">
+          <mxGeometry x="-0.2112" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-40" value="Метастатическое поражение?" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;endArrow=blockThin;fontSize=11;rounded=0;startSize=5;endFill=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="145" y="840" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-43" value="Конец" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;endArrow=blockThin;fontSize=11;startSize=5;endFill=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="10" y="1080" width="810" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;exitX=0.167;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="1080" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="30" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="925" y="470" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="925" y="500" />
+              <mxPoint x="925" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;jumpStyle=gap;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-57" target="_jp2UerT5N_s9_eImcSw-84" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="900" />
+              <mxPoint x="510" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-57" value="II. Поверхностная тазово-бедренная подвздошная&amp;nbsp;&lt;br&gt;лимфаденэктомия" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;endArrow=blockThin;fontSize=11;startSize=5;endFill=1;verticalAlign=top;spacing=0;spacingTop=0;spacingLeft=2;spacingBottom=0;spacingRight=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="440" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-10" target="_jp2UerT5N_s9_eImcSw-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="106" y="280" as="sourcePoint" />
+            <mxPoint x="106" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-22" value="Глубина инвазии?" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;endArrow=blockThin;fontSize=11;rounded=0;startSize=5;endFill=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="50" y="390" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-68" target="_jp2UerT5N_s9_eImcSw-69" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-71" value="ДА" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];endArrow=blockThin;rounded=0;strokeColor=default;startSize=5;endFill=1;labelBackgroundColor=default;" parent="_jp2UerT5N_s9_eImcSw-70" vertex="1" connectable="0">
+          <mxGeometry x="0.0337" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;jumpStyle=arc;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-68" target="_jp2UerT5N_s9_eImcSw-57" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="331" y="630" as="sourcePoint" />
+            <mxPoint x="601" y="656" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-73" value="НЕТ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];endArrow=blockThin;rounded=0;strokeColor=default;startSize=5;endFill=1;labelBackgroundColor=default;" parent="_jp2UerT5N_s9_eImcSw-72" vertex="1" connectable="0">
+          <mxGeometry x="-0.4411" relative="1" as="geometry">
+            <mxPoint x="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-68" value="Возможность&lt;br&gt;проведения БСЛУ?" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;endArrow=blockThin;fontSize=11;rounded=0;startSize=5;endFill=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="236" y="570" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-69" target="_jp2UerT5N_s9_eImcSw-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-69" value="I. БСЛУ&lt;br&gt;со срочной гистологией" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;endArrow=blockThin;fontSize=11;startSize=5;endFill=1;verticalAlign=top;spacingTop=0;spacing=0;spacingLeft=2;spacingBottom=0;spacingRight=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="160" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-76" target="_jp2UerT5N_s9_eImcSw-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-81" value="НЕТ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];endArrow=blockThin;rounded=0;strokeColor=default;startSize=5;endFill=1;labelBackgroundColor=default;" parent="_jp2UerT5N_s9_eImcSw-80" vertex="1" connectable="0">
+          <mxGeometry x="-0.3163" y="-1" relative="1" as="geometry">
+            <mxPoint x="24" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-76" target="_jp2UerT5N_s9_eImcSw-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-14" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-83" value="ДА" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];endArrow=blockThin;rounded=0;strokeColor=default;startSize=5;endFill=1;labelBackgroundColor=default;" parent="_jp2UerT5N_s9_eImcSw-82" vertex="1" connectable="0">
+          <mxGeometry x="-0.8062" relative="1" as="geometry">
+            <mxPoint x="-40" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-76" value="Признаки &lt;br&gt;поражения &lt;br&gt;бедренных лимфоузлов?" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;endArrow=blockThin;fontSize=11;rounded=0;startSize=5;endFill=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="470" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-84" target="_jp2UerT5N_s9_eImcSw-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="524.5400000000004" y="1075.98" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="1080" />
+              <mxPoint x="510" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-87" value="НЕТ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];endArrow=blockThin;rounded=0;strokeColor=default;startSize=5;endFill=1;labelBackgroundColor=default;" parent="_jp2UerT5N_s9_eImcSw-86" vertex="1" connectable="0">
+          <mxGeometry x="-0.6914" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;jumpStyle=arc;endArrow=blockThin;startSize=5;endFill=1;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_jp2UerT5N_s9_eImcSw-84" target="_jp2UerT5N_s9_eImcSw-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-90" value="ДА" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];endArrow=blockThin;rounded=0;strokeColor=default;startSize=5;endFill=1;labelBackgroundColor=default;" parent="_jp2UerT5N_s9_eImcSw-88" vertex="1" connectable="0">
+          <mxGeometry x="-0.7424" y="5" relative="1" as="geometry">
+            <mxPoint y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jp2UerT5N_s9_eImcSw-84" value="Признаки поражения&lt;br&gt;&amp;nbsp;ЛУ при плановой &lt;br&gt;проводке?" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;endArrow=blockThin;fontSize=11;rounded=0;startSize=5;endFill=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="435" y="950" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q8DfY71SDZZAUTqH6jWV-3" value="Классификация ЛАЭ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=36;fontFamily=Helvetica;fontColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="221" y="10" width="370" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
