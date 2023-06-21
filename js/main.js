@@ -7,9 +7,10 @@ var content = document.getElementById('content');
 const surgery = [
                     'N. Лимфаденэктомия не показана',
                     'I. Биопсия сторожевого лимфатического узла со срочной гистологией',
-                    'II. Поверхностная тазово-бедренная лимфаденэктомия',
+                    'II. Односторонняя поверхностная пахово-бедренная лимфаденэктомия',
+                    'II. Двусторонняя поверхностная пахово-бедренная лимфаденэктомия',
                     'III. Операция Дюкена',
-                    'IV. Тазово-бедренная подвздошная лимфаденэктомия',
+                    'IV. Пахово-бедренно-подвздошная лимфаденэктомия',
                     'Операция окончена',
                     ];
 function submitForm(event) {
@@ -26,11 +27,11 @@ function submitForm(event) {
     content.innerHTML = '';
     if (msptlu == true) {
         conclusion.style.display = "inline-grid";
-        content.innerHTML += surgery[4];
+        content.innerHTML += surgery[5];
         return;
     } else if (mspblu == true) {
         conclusion.style.display = "inline-grid";
-        content.innerHTML += surgery[3];
+        content.innerHTML += surgery[4];
         return;
     }
     if (size <= '2' && depth <= '1') {
@@ -48,7 +49,7 @@ function submitForm(event) {
             return;
         } else {
             conclusion.style.display = "inline-grid";
-            content.innerHTML += surgery[2];
+            content.innerHTML += surgery[3];
             form4.style.display = "block";
             let x = document.querySelector('input[name=damage]:checked');
         if (x) {
@@ -59,7 +60,7 @@ function submitForm(event) {
     }
     if (size >= 4) {
         conclusion.style.display = "inline-grid";
-        content.innerHTML += surgery[3];
+        content.innerHTML += surgery[4];
         form4.style.display = "block";
         let x = document.querySelector('input[name=damage]:checked');
         if (x) {
@@ -98,11 +99,11 @@ function meta(event) {
     var meta = document.getElementById('meta-y').checked;
     if (meta == true) {
         conclusion.style.display = "inline-grid";
-        content.innerHTML = surgery[3];
+        content.innerHTML = surgery[4];
         return;
     } else {
         conclusion.style.display = "inline-grid";
-        content.innerHTML = surgery[5];
+        content.innerHTML = surgery[6];
         return;
     }
 }
@@ -111,11 +112,11 @@ function damage(event) {
     var damage = document.getElementById('damage-y').checked;
     if (damage == true) {
         conclusion.style.display = "inline-grid";
-        content.innerHTML = surgery[3];
+        content.innerHTML = surgery[4];
         return;
     } else {
         conclusion.style.display = "inline-grid";
-        content.innerHTML = surgery[5];
+        content.innerHTML = surgery[6];
         return;
     }
 }

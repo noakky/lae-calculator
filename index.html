@@ -17,14 +17,14 @@
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M142.9 142.9c62.2-62.2 162.7-62.5 225.3-1L327 183c-6.9 6.9-8.9 17.2-5.2 26.2s12.5 14.8 22.2 14.8H463.5c0 0 0 0 0 0H472c13.3 0 24-10.7 24-24V72c0-9.7-5.8-18.5-14.8-22.2s-19.3-1.7-26.2 5.2L413.4 96.6c-87.6-86.5-228.7-86.2-315.8 1C73.2 122 55.6 150.7 44.8 181.4c-5.9 16.7 2.9 34.9 19.5 40.8s34.9-2.9 40.8-19.5c7.7-21.8 20.2-42.3 37.8-59.8zM16 312v7.6 .7V440c0 9.7 5.8 18.5 14.8 22.2s19.3 1.7 26.2-5.2l41.6-41.6c87.6 86.5 228.7 86.2 315.8-1c24.4-24.4 42.1-53.1 52.9-83.7c5.9-16.7-2.9-34.9-19.5-40.8s-34.9 2.9-40.8 19.5c-7.7 21.8-20.2 42.3-37.8 59.8c-62.2 62.2-162.7 62.5-225.3 1L185 329c6.9-6.9 8.9-17.2 5.2-26.2s-12.5-14.8-22.2-14.8H48.4h-.7H40c-13.3 0-24 10.7-24 24z"/></svg>
         </button>
     </div>
-    <form id="form1" class="form-control my-1 py-2">
-        <div class="form-check form-check-reverse form-switch ps-0 ">
-            <label for="msptlu-y" class="form-check-label float-start pe-3">Есть признаки метастатического поражения тазовых ЛУ?</label>
-            <input type="checkbox" id="msptlu-y" name="msptlu" class="form-check-input float-end" role="switch">
+    <form id="form1" class="form-control my-1 py-2">     
+        <div class="form-check form-check-reverse text-start">
+            <label for="msptlu-y" class="form-check-label float-start">Есть признаки метастатического поражения тазовых ЛУ по данным визуализирующих обследований?</label>
+            <input type="checkbox" id="msptlu-y" name="msptlu" class="form-check-input">
         </div>
-        <div class="form-check form-check-reverse form-switch ps-0">
-            <label for="mspblu-y" class="form-check-label float-start pe-3">Есть признаки метастатического поражения бедренных ЛУ?</label>
-            <input type="checkbox" id="mspblu-y" name="mspblu" class="form-check-input float-end" role="switch">
+        <div class="form-check form-check-reverse text-start">
+            <label for="mspblu-y" class="form-check-label float-start">Есть признаки метастатического поражения бедренных ЛУ по данным визуализирующих обследований?</label>
+            <input type="checkbox" id="mspblu-y" name="mspblu" class="form-check-input float-end">
         </div>
         <div></div>
         <div class="input-group py-1">      
@@ -47,27 +47,27 @@
         </div>
     </form> 
     <form id="form2" style="display:none;" class="add-forms form-control my-1 py-2">
-        <div class="form-check form-switch ps-0 overflow-y-auto">
+        <div class="form-check ps-0 overflow-y-auto">
             <label for="biopsy-y" class="form-check-label float-start pe-3">Есть ли возможность проведения биопсии сторожевого ЛУ c использованием Технеция?</label>
-            <input type="checkbox" id="biopsy-y" name="biopsy" class="form-check-input float-end" role="switch">
+            <input type="checkbox" id="biopsy-y" name="biopsy" class="form-check-input float-end">
         </div>
         <div class="col-12 mt-3">
             <button type="submit" class="btn btn-outline-secondary" type="submit">Обновить</button>
         </div>
     </form>
     <form id="form3" style="display:none;" class="add-forms form-control my-1 py-2">
-        <div class="form-check form-switch ps-0 overflow-y-auto">
+        <div class="form-check ps-0 overflow-y-auto">
             <label for="meta-y" class="form-check-label float-start pe-3">При срочной гистологии есть метастатическое поражение?</label>
-            <input type="checkbox" id="meta-y" name="meta" class="form-check-input float-end" role="switch">
+            <input type="checkbox" id="meta-y" name="meta" class="form-check-input float-end">
         </div>
         <div class="col-12 mt-3">
             <button type="submit" class="btn btn-outline-secondary" type="submit">Обновить</button>
         </div>
     </form>
     <form id="form4" style="display:none;" class="add-forms form-control my-1 py-2">
-        <div class="form-check form-switch ps-0 overflow-y-auto">
+        <div class="form-check ps-0 overflow-y-auto">
             <label for="damage-y" class="form-check-label float-start pe-3">При плановой проводке есть признаки поражения лимфатического узла?</label>
-            <input type="checkbox" id="damage-y" name="damage" class="form-check-input float-end" role="switch">
+            <input type="checkbox" id="damage-y" name="damage" class="form-check-input float-end">
         </div>
         <div class="col-12 mt-3">
             <button type="submit" class="btn btn-outline-secondary" type="submit">Обновить</button>
@@ -94,22 +94,22 @@
                 <tr title="ЛАЭ 1 уровень — определение СЛУ
 Показания: нет признаков метастатического поражения лимфатических узлов по данным обследований — МРТ/КТ малого таза, опухоль до 4см с латеральным расположением. При невозможности выполнения методики определения СЛУ переход на ЛАЭ 2 уровня.">
                     <th scope="row">I</th>
-                    <td>Поверхностная тазово-бедренная лимфаденэктомия</td>
+                    <td>Биопсия сторожевого лимфатического узла со срочной гистологией</td>
                 </tr>
                 <tr title="ЛАЭ 2 уровень-поверхностная (модифицированная, надфасциальная ЛАЭ). 
 Показания: нет признаков метастатического поражения лимфатических узлов по данным обследований — МРТ/КТ малого таза, опухоль до 4см с центральным расположением, невозможность выполнения методики определения СЛУ.">
                     <th scope="row">II</th>
-                    <td>Поверхностная тазово-бедренная подвздошная лимфаденэктомия</td>
+                    <td>Поверхностная пахово-бедренная лимфаденэктомия</td>
                 </tr>
                 <tr title="ЛАЭ 3 уровень – классическая пахово-бедренная ЛАЭ
 Показания: признаки метастатического поражения лимфатических узлов по данным обследований — МРТ/КТ малого таза, диагностированный метастатически пораженный лимфатический узел по результатом выполненной ЛАЭ 1-2 уровня.">
                     <th scope="row">III</th>
-                    <td>Операция Дюкена</td>
+                    <td>Операция Дюкена. Глубокая пахово-бедренная лимфаденэктомия</td>
                 </tr>
                 <tr title="ЛАЭ 4 уровень – пахово-бедренно-подвздошная ЛАЭ.
 Показания: признаки метастатического поражения тазовых лимфоузлов по результатам инструментальных методов исследования.">
                     <th scope="row">IV</th>
-                    <td>Тазово-бедренная подвздошная лимфаденэктомия</td>
+                    <td>Пахово-бедренно-подвздошная лимфаденэктомия</td>
                 </tr>
             </tbody>
         </table>
