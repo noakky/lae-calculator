@@ -20,7 +20,6 @@ body {
     width: 2rem;
     float: right;
 }
-}
 #line svg:hover {
     fill: var(--bs-primary);
 }
