@@ -40,7 +40,7 @@ function submitForm(event) {
             return;
     }
     if ((size > '2' && size < '4') || (size <= '2' && depth >'1')) {
-        if (dist > '2') {
+        if (dist >= '2') {
             form2.style.display = "block";
             let x = document.querySelector('input[name=biopsy]:checked');
         if (x) {
